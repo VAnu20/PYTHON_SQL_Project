@@ -2,7 +2,7 @@
 
 TARGET DATASET EXPLORATION: AN SQL AND PYTHON APPROACH 
 
-Goal: Analyze and visualize business metrics using SQL and Python.
+### Goal: Analyze and visualize business metrics using SQL and Python.
 
 ## BASIC PROBLEMS:
 ### Objective: Extract fundamental insights from the dataset. 
