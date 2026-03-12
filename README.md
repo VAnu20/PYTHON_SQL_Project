@@ -4,7 +4,7 @@
 
 Navigating the Future of Online Shopping
 
-A comprehensive data analysis project using SQL and Python to explore an e-commerce dataset, uncover business insights, and analyze customer purchasing patterns, revenue trends, and seller performance. This project demonstrates how data querying, analysis, and visualization techniques can be used to convert raw transactional data into actionable business intelligence.
+A comprehensive data analysis project using **SQL** and **Python** to explore an **e-commerce dataset**, uncover business insights, and analyze customer purchasing patterns, revenue trends, and seller performance. This project demonstrates how data querying, analysis, and visualization techniques can be used to convert **raw transactional data** into **actionable business intelligence**.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -13,12 +13,12 @@ A comprehensive data analysis project using SQL and Python to explore an e-comme
 - [Tools & Technology Used](#tools-&-technologies-used)
 - [Technical Implementation](#technical-implementation )
 - [Data Analysis Approach](#data-analysis-approach)
-- [Key Business Insights/Findings](#)
-- [Conclusion](#)
+- [Project Insights/Findings](#project-insights/findings)
+- [Conclusion](#Conclusion)
 
 ### Project Overview
 
-In this project, I performed data exploration and analysis on an e-commerce dataset to understand key business metrics.
+In this project, I performed **data exploration and analysis on an e-commerce dataset** to understand key business metrics.
 
 The goal is to identify patterns related to:
  - Customer purchasing behavior
@@ -27,19 +27,19 @@ The goal is to identify patterns related to:
  - Payment trends
  - Revenue growth and customer retention
 
-I used SQL queries to extract and transform the data and then applied Python (Pandas & visualization libraries) to perform deeper analysis and generate visual insights. This project demonstrates my ability to work with real-world datasets, perform structured analysis, and derive meaningful business insights.
+I used **SQL queries to extract and transform the data** and then applied **Python (Pandas & visualization libraries)** to perform deeper analysis and generate visual insights. This project demonstrates my ability to **work with real-world datasets, perform structured analysis, and derive meaningful business insights**.
 
 ### Project Objective
 
-The objective of this project is to analyze an e-commerce dataset using SQL and Python to uncover meaningful insights about customer behavior, sales performance, and revenue trends. Through structured data analysis and visualization, this project demonstrates how raw business data can be transformed into insights that support data-driven decision making.
+The objective of this project is to analyze an e-commerce dataset using **SQL** and **Python** to uncover meaningful insights about customer behavior, sales performance, and revenue trends. Through structured data analysis and visualization, this project demonstrates how raw business data can be transformed into insights that support **data-driven decision making**.
 
 - The main objectives of this project were:
-  - Extract fundamental business metrics from transactional data.
-  - Analyze customer demographics and geographic distribution.
-  - Evaluate sales performance by product categories and sellers.
-  - Identify trends in order frequency and revenue growth.
-  - Measure customer retention and long-term value.
-  - Generate strategic insights for business optimization.
+   - Extract fundamental business metrics from transactional data.
+   - Analyze customer demographics and geographic distribution.
+   - Evaluate sales performance by product categories and sellers.
+   - Identify trends in order frequency and revenue growth.
+   - Measure customer retention and long-term value.
+   - Generate strategic insights for business optimization.
 
 ### Dataset Used 
 
@@ -47,69 +47,79 @@ The primary dataset used for this analysis can be found in the files uploaded to
 
 ### Tools & Technologies Used
 
-- SQL (MySQL) – Used for data extraction, querying, joins, and aggregations to analyze the dataset.
-- Python – Used for data analysis and processing.
-- Pandas – Used for data manipulation and exploratory data analysis.
-- Matplotlib – Used for creating visualizations and charts.
-- Jupyter Notebook / Google Colab – Used as the development environment for Python analysis.
+- SQL (MySQL) : Used for data extraction, querying, joins, and aggregations to analyze the dataset.
+- Python : Used for data analysis and processing.
+- Pandas : Used for data manipulation and exploratory data analysis.
+- Matplotlib : Used for creating visualizations and charts.
+- Jupyter Notebook / Google Colab : Used as the development environment for Python analysis.
 
 ### Technical Implementation 
 
-- Database Management (MySQL)
- - **Data Ingestion:** Loaded 1M+ rows of data into MySQL using LOAD DATA LOCAL INFILE for efficient data import.
- - **Complex Querying:** Used SQL joins, CTEs, and window functions (RANK(), AVG() OVER()) to analyze relationships across multiple tables and compute key metrics.
+- **Database Management (MySQL)**
+  - **Data Ingestion:** Loaded 1M+ rows of data into MySQL using LOAD DATA LOCAL INFILE for efficient data import.
+  - **Complex Querying:** Used SQL joins, CTEs, and window functions (RANK(), AVG() OVER()) to analyze relationships across multiple tables and compute key metrics.
 
-- Python Analysis (Google Colab)
- - **Data Manipulation:** Used Pandas to merge SQL outputs with CSV data and perform statistical and correlation analysis.
- - **Data Visualization:** Created visual insights using Matplotlib, including bar charts, line graphs, and geographic density maps.
+- **Python Analysis (Google Colab)**
+  - **Data Manipulation:** Used Pandas to merge SQL outputs with CSV data and perform statistical and correlation analysis.
+  - **Data Visualization:** Created visual insights using Matplotlib, including bar charts, line graphs, and geographic density maps.
 
 ### Data Analysis Approach
 
 The project is divided into three analytical levels, gradually increasing in complexity.
 
-- Basic Analysis
+- **Basic Analysis**
 
 **Objective :** Extract fundamental insights from the dataset.
 
 - Key Questions
- - List all unique cities where customers are located.
- - Count the number of orders placed in 2017.
- - Find the total sales per product category.
- - Calculate the percentage of orders paid in installments.
- - Count the number of customers from each state.
+  - List all unique cities where customers are located.
+  - Count the number of orders placed in 2017.
+  - Find the total sales per product category.
+  - Calculate the percentage of orders paid in installments.
+  - Count the number of customers from each state.
 
 - Outcome
 
 This stage provides a high-level understanding of customer distribution and transaction patterns
 
-- Intermediate Analysis
+- **Intermediate Analysis**
 
 **Objective :** Analyze deeper sales trends and product performance.
 
 - Key Questions
- - Calculate the number of orders per month in 2018.
- - Find the average number of products per order grouped by customer city.
- - Calculate the percentage of total revenue contributed by each product category.
- - Identify the correlation between product price and purchase frequency.
- - Calculate total revenue generated by each seller and rank them.
+  - Calculate the number of orders per month in 2018.
+  - Find the average number of products per order grouped by customer city.
+  - Calculate the percentage of total revenue contributed by each product category.
+  - Identify the correlation between product price and purchase frequency.
+  - Calculate total revenue generated by each seller and rank them.
 
 - Outcome
 
 This stage reveals sales patterns, category performance, and seller contribution to platform revenue.
 
-- Advanced Analysis
+- **Advanced Analysis**
 
 **Objective :** Generate strategic insights related to growth and customer loyalty.
 
 - Key Questions
- - Calculate the moving average of order values for each customer.
- - Compute cumulative monthly sales for each year.
- - Determine the year-over-year (YoY) growth rate of total sales.
- - Calculate customer retention rate (customers purchasing again within 6 months).
- - Identify the top 3 highest-spending customers for each year.
+  - Calculate the moving average of order values for each customer.
+  - Compute cumulative monthly sales for each year.
+  - Determine the year-over-year (YoY) growth rate of total sales.
+  - Calculate customer retention rate (customers purchasing again within 6 months).
+  - Identify the top 3 highest-spending customers for each year.
 
 - Outcome
 
 This analysis helps evaluate long-term business growth, customer loyalty, and revenue sustainability.
 
-### Project Insights 
+### Project Insights/Findings
+
+- **Customer Market Concentration:** Customer activity is highly concentrated in a few geographic regions, indicating key markets where targeted marketing and logistics optimization can improve efficiency.
+- **Revenue Drivers:** The top product categories contribute a significant portion of total revenue, suggesting that focusing on high-performing categories can maximize business growth.
+- **Payment Behavior:** A large share of customers prefer installment-based payments, highlighting the importance of flexible payment options in increasing purchase conversions.
+- **Sales Growth Trends:** Monthly sales trends show steady growth with seasonal peaks, allowing businesses to plan inventory and logistics for high-demand periods.
+- **Price vs Demand:** Lower-priced products tend to sell more frequently, while higher-priced products contribute significantly to overall revenue, indicating the importance of maintaining a balanced product portfolio.
+
+### Conclusion
+
+Through this project, I successfully explored and analyzed the dataset to uncover patterns in customer purchasing behavior, product demand, and seller performance. The analysis highlighted important trends in sales growth, payment preferences, and revenue contribution across product categories. These insights demonstrate how data analysis can help businesses better understand their operations and support more informed strategic decisions.
