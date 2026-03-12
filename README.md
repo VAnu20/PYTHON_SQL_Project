@@ -13,7 +13,7 @@ A comprehensive data analysis project using **SQL** and **Python** to explore an
 - [Tools & Technology Used](#tools-&-technologies-used)
 - [Technical Implementation](#technical-implementation )
 - [Data Analysis Approach](#data-analysis-approach)
-- [Project Insights/Findings](#project-insights/findings)
+- [Project Insights/Findings](#project-insights-/-findings)
 - [Conclusion](#Conclusion)
 
 ### Project Overview
