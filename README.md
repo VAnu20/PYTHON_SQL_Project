@@ -61,7 +61,7 @@ The primary dataset used for this analysis can be found in the files uploaded to
 
 - **Python Analysis (Google Colab)**
   - **Data Manipulation:** Used Pandas to merge SQL outputs with CSV data and perform statistical and correlation analysis.
-  - **Data Visualization:** Created visual insights using Matplotlib, including bar charts, line graphs, and geographic density maps.
+  - **Data Visualization:** Created visual insights using Matplotlib, including bar charts, line graphs, and scatter plot.
 
 ### Data Analysis Approach
 
